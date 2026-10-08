@@ -1,0 +1,16 @@
+policy:
+  default_action: deny
+  allowed_sources:
+    - ACFT_SIM
+  allowed_destinations:
+    - GROUND_SIM
+  allowed_services:
+    - ATS
+    - AOC
+    - MAINT
+  max_payload_bytes: 2048
+
+assurance:
+  baseline_required: true
+  configuration_change_requires_test_rerun: true
+  log_security_rejections: true

@@ -1,0 +1,21 @@
+mission:
+  name: TLS_demo_profile
+  phases:
+    - phase: GATE
+      duration_s: 30
+      preferred_bearer: WIFI_LAB
+    - phase: TAXI
+      duration_s: 60
+      preferred_bearer: VDL2_SIM
+    - phase: CLIMB
+      duration_s: 120
+      preferred_bearer: VDL2_SIM
+    - phase: CRUISE
+      duration_s: 300
+      preferred_bearer: SATCOM_SIM
+    - phase: DESCENT
+      duration_s: 120
+      preferred_bearer: VDL2_SIM
+    - phase: APPROACH
+      duration_s: 90
+      preferred_bearer: VDL2_SIM

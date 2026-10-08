@@ -1,0 +1,16 @@
+bearers:
+  VDL2_SIM:
+    rate_kbit_s: 31.5
+    one_way_delay_ms: 120
+    jitter_ms: 20
+    packet_loss_percent: 0.2
+  SATCOM_SIM:
+    rate_kbit_s: 256
+    one_way_delay_ms: 300
+    jitter_ms: 80
+    packet_loss_percent: 0.1
+  WIFI_LAB:
+    rate_kbit_s: 10000
+    one_way_delay_ms: 15
+    jitter_ms: 5
+    packet_loss_percent: 0.05
